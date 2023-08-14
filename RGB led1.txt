@@ -1,0 +1,22 @@
+void setup()
+
+pinMode(11,OUTPUT);
+pinMode(9,OUTPUT);
+pinMode(6,OUTPUT);
+}
+
+void loop()
+
+ analogWrite(11,255);
+analogWrite(9,0);
+analog(6,0);
+delay(1000);
+analogWrite(11,0);
+analogWrite(9,153);
+analog(6,0);
+delay(1000);
+analogWrite(11,0);
+analogWrite(9,0);
+analog(6,153);
+delay(1000);
+}
